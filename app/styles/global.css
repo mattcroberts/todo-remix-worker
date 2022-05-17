@@ -1,0 +1,15 @@
+body {
+  background-color: #493843;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #61988e;
+  margin-left: 2rem;
+}
+
+.todo-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}

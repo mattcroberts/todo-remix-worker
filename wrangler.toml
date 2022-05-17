@@ -1,0 +1,20 @@
+name = "todo"
+
+compatibility_date = "2022-05-11"
+
+account_id = ""
+workers_dev = true
+main = "./build/index.js"
+
+[site]
+bucket = "./public"
+
+[build]
+command = "npm run build"
+
+[vars]
+
+kv_namespaces = [
+  { binding = "TODOS", id = "<ignored>", preview_id = "<ignored>" },
+  { binding = "TEST_NAMESPACE2", id = "<ignored>", preview_id = "<ignored>" }
+]
